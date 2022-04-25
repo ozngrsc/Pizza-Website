@@ -12,10 +12,10 @@ import {
   ProductButton,
 } from "./ProductsElements";
 
-const Products = () => {
+const Products = ({ heading, data }) => {
   return (
     <ProductsContainer>
-      <ProductsHeading>heading</ProductsHeading>
+      <ProductsHeading>{heading}</ProductsHeading>
       <ProductWrapper>
         {data.map((product, index) => {
           return (
