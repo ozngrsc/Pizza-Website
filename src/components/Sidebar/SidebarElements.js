@@ -34,7 +34,7 @@ export const Icon = styled.div`
   outline: none;
 `;
 
-export const SidebarManu = styled.div`
+export const SidebarMenu = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 80px);
