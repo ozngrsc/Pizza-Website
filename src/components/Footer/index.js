@@ -2,7 +2,7 @@ import React from "react";
 import {
   FaFacebook,
   FaInstagram,
-  FaYoutube,
+  FaGithub,
   FaTwitter,
   FaLinkedin,
 } from "react-icons/fa";
@@ -26,24 +26,28 @@ const Footer = () => {
             <SocialLogo to="/">Pizza</SocialLogo>
             <SocialIcons>
               <SocialIconLink
-                href="//www.facebook.com/oskee3/"
+                href="https://www.facebook.com/ozan.gursucu"
                 target="_blank"
                 aria-label="Facebook"
               >
                 <FaFacebook />
               </SocialIconLink>
               <SocialIconLink
-                href="//www.instagram.com/ozgeecsknnn/"
+                href="https://www.instagram.com/ozngrsc/"
                 target="_blank"
                 aria-label="Instagram"
               >
                 <FaInstagram />
               </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Youtube">
-                <FaYoutube />
+              <SocialIconLink
+                href="https://github.com/ozngrsc"
+                target="_blank"
+                aria-label="Github"
+              >
+                <FaGithub />
               </SocialIconLink>
               <SocialIconLink
-                href="//twitter.com/oskee3"
+                href="https://twitter.com/OznGrsc_"
                 target="_blank"
                 aria-label="Twitter"
                 rel="noopener noreferrer"
@@ -51,7 +55,7 @@ const Footer = () => {
                 <FaTwitter />
               </SocialIconLink>
               <SocialIconLink
-                href="//www.linkedin.com/in/%C3%B6zge-co%C5%9Fkun-g%C3%BCrsucu-28380987/"
+                href="https://www.linkedin.com/in/ozan-g%C3%BCrsucu-82ba20b5/"
                 target="_blank"
                 aria-label="Linkedin"
               >
